@@ -1,0 +1,126 @@
+
+/* style the entire page */
+body{
+  background-color:#5e8e9e;
+}
+
+{
+  box-sizing:border-box;
+}
+/* style the header */
+header{
+  background-color: #1d434e;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+/* style the header text in h1*/
+
+header h1 {
+font-size:50px;
+text-align: center;
+color: #5e8e9e;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 50px;
+}
+
+/* style the navigation bars*/
+nav {
+  display: flex;
+  margin: 50px;
+  padding: 40px;
+  background-color: #7d6353;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+   
+   
+
+}
+/*and its text*/
+nav a {
+  font-size: 20px;
+  color: #8f99a4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*style links using pseudo-classes*/
+a:link    { color: #082c49;  }
+a:visited { color: #76122c;   }
+a:hover   { color: #122c76; }
+a:active  { color: pink;  }
+
+/*style the main section*/
+main {
+  text-align: center;
+  margin: 50px, 15px;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+   
+}
+ /*style the heading and paragraph text levels*/
+h2{
+  font-size:30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#193b51;
+}
+h3 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#1d434e;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*style the section containers within the main*/
+
+
+section{
+  margin: 50px, 15px;
+  padding: 40px;
+  background-color: #7d6353;
+  border-radius: 15px;
+  width: 800px;
+  align-items: center;
+} 
+
+
+/*style the footer (I made it look like the header)*/
+
+footer{ 
+  background-color: #1d434e;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  }
+
+footer nav{ 
+  display: flex;
+  margin: 50px;
+  padding: 40px;
+  background-color: #7d6353;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  }
+
+/* get my image(s) centered and styled*/
+img{
+   background-color: #1d434e;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+    
