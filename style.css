@@ -118,10 +118,15 @@ footer nav{
 
 /* get my image(s) centered and styled*/
 img{
-   background-color: #1d434e;
-  border: 2px solid black;
+  
+  background-color: #7d6353;
+  border-radius: 15px;
   align-items: center;
   justify-content: center;
   display: flex;
-
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
     
