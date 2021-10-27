@@ -7,18 +7,16 @@ body{
 {
   box-sizing:border-box;
 }
+
 /* style the header */
 header{
   background-color: #1d434e;
   border: 2px solid black;
   align-items: center;
   justify-content: center;
-  display: flex;
-  
 }
 
 /* style the header text in h1*/
-
 header h1 {
 font-size:50px;
 text-align: center;
@@ -38,16 +36,13 @@ nav {
   justify-content: space-between;
   width: 800px;
   height: 40px;
-   
-   
-
 }
+
 /*and its text*/
 nav a {
   font-size: 20px;
   color: #d3d3d3;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 /*style links using pseudo-classes*/
@@ -64,14 +59,15 @@ main {
   align-items: center;
   justify-content: center;
   display: flex;
-   
 }
+
  /*style the heading and paragraph text levels*/
 h2{
   font-size:30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:#193b51;
 }
+
 h3 {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -80,6 +76,7 @@ h3 {
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
 }
 
 /*style the section containers within the main*/
@@ -118,7 +115,6 @@ footer nav{
 
 /* get my image(s) centered and styled*/
 img{
-  
   background-color: #d3d3d3;
   border-radius: 15px;
   align-items: center;
