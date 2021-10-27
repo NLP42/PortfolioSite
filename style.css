@@ -1,7 +1,7 @@
 
 /* style the entire page */
 body{
-  background-color:#5e8e9e;
+  background-color:#82b2c3;
 }
 
 {
@@ -22,7 +22,7 @@ header{
 header h1 {
 font-size:50px;
 text-align: center;
-color: #5e8e9e;
+color: #82b2c3;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 margin: 50px;
 }
@@ -32,7 +32,7 @@ nav {
   display: flex;
   margin: 50px;
   padding: 40px;
-  background-color: #7d6353;
+  background-color: #d3d3d3;
   border-radius: 50px;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +45,7 @@ nav {
 /*and its text*/
 nav a {
   font-size: 20px;
-  color: #8f99a4;
+  color: #d3d3d3;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -88,7 +88,7 @@ p {
 section{
   margin: 50px, 15px;
   padding: 40px;
-  background-color: #7d6353;
+  background-color: #d3d3d3;
   border-radius: 15px;
   width: 800px;
   align-items: center;
@@ -109,7 +109,7 @@ footer nav{
   display: flex;
   margin: 50px;
   padding: 40px;
-  background-color: #7d6353;
+  background-color: #d3d3d3;
   border-radius: 50px;
   align-items: center;
   justify-content: space-between;
@@ -119,7 +119,7 @@ footer nav{
 /* get my image(s) centered and styled*/
 img{
   
-  background-color: #7d6353;
+  background-color: #d3d3d3;
   border-radius: 15px;
   align-items: center;
   justify-content: center;
